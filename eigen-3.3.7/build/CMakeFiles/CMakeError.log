@@ -1,0 +1,90 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wshorten64to32 failed with the following output:
+Change Dir: /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d684b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d684b.dir/build.make CMakeFiles/cmTC_d684b.dir/build
+gmake[1]: Entering directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d684b.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wshorten64to32  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Werror   -Wshorten-64-to-32 -o CMakeFiles/cmTC_d684b.dir/src.cxx.o -c /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wshorten-64-to-32'
+gmake[1]: *** [CMakeFiles/cmTC_d684b.dir/build.make:78: CMakeFiles/cmTC_d684b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d684b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Wcpp11extensions failed with the following output:
+Change Dir: /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_92c72/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_92c72.dir/build.make CMakeFiles/cmTC_92c72.dir/build
+gmake[1]: Entering directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_92c72.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Wcpp11extensions  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Werror   -Wc++11-extensions -o CMakeFiles/cmTC_92c72.dir/src.cxx.o -c /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wc++11-extensions'; did you mean '-fms-extensions'?
+gmake[1]: *** [CMakeFiles/cmTC_92c72.dir/build.make:78: CMakeFiles/cmTC_92c72.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_92c72/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd981 failed with the following output:
+Change Dir: /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5442f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5442f.dir/build.make CMakeFiles/cmTC_5442f.dir/build
+gmake[1]: Entering directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5442f.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd981  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd981 -o CMakeFiles/cmTC_5442f.dir/src.cxx.o -c /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd981'
+gmake[1]: *** [CMakeFiles/cmTC_5442f.dir/build.make:78: CMakeFiles/cmTC_5442f.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_5442f/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_wd2304 failed with the following output:
+Change Dir: /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b9968/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b9968.dir/build.make CMakeFiles/cmTC_b9968.dir/build
+gmake[1]: Entering directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b9968.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_wd2304  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -wd2304 -o CMakeFiles/cmTC_b9968.dir/src.cxx.o -c /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-wd2304'
+gmake[1]: *** [CMakeFiles/cmTC_b9968.dir/build.make:78: CMakeFiles/cmTC_b9968.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b9968/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_STRICTANSI failed with the following output:
+Change Dir: /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7c607/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7c607.dir/build.make CMakeFiles/cmTC_7c607.dir/build
+gmake[1]: Entering directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7c607.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_STRICTANSI  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -strict-ansi -o CMakeFiles/cmTC_7c607.dir/src.cxx.o -c /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-strict-ansi'; did you mean '-fstrict-enums'?
+gmake[1]: *** [CMakeFiles/cmTC_7c607.dir/build.make:78: CMakeFiles/cmTC_7c607.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7c607/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test COMPILER_SUPPORT_Qunusedarguments failed with the following output:
+Change Dir: /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_31154/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_31154.dir/build.make CMakeFiles/cmTC_31154.dir/build
+gmake[1]: Entering directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_31154.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILER_SUPPORT_Qunusedarguments  -std=c++03 -pedantic -Wall -Wextra -Wundef -Wcast-align -Wchar-subscripts -Wnon-virtual-dtor -Wunused-local-typedefs -Wpointer-arith -Wwrite-strings -Wformat-security -Wlogical-op -Wenum-conversion -Wdouble-promotion -Wno-psabi -Wno-variadic-macros -Wno-long-long -fno-check-new -fno-common -fstrict-aliasing -Werror   -Qunused-arguments -o CMakeFiles/cmTC_31154.dir/src.cxx.o -c /home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Qunused-arguments'
+gmake[1]: *** [CMakeFiles/cmTC_31154.dir/build.make:78: CMakeFiles/cmTC_31154.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/home/yanwei/第二次任务喵/task/eigen-3.3.7/build/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_31154/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

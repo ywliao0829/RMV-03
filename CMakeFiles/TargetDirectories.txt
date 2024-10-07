@@ -1,0 +1,3 @@
+/home/yanwei/第二次任务喵/task/CMakeFiles/task.dir
+/home/yanwei/第二次任务喵/task/CMakeFiles/edit_cache.dir
+/home/yanwei/第二次任务喵/task/CMakeFiles/rebuild_cache.dir

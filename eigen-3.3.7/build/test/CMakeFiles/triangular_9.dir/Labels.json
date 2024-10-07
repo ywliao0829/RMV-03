@@ -1,0 +1,16 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/yanwei/\u7b2c\u4e8c\u6b21\u4efb\u52a1\u55b5/task/eigen-3.3.7/test/triangular.cpp"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"BuildOfficial"
+		],
+		"name" : "triangular_9"
+	}
+}
