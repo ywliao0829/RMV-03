@@ -5,11 +5,14 @@
 - eigen-3.3.7    
 - ceres-1.14.0
 
-**由于eigen3的默认安装途径通常为/usr/local/include/eigen3，这里选择修改CMakeLists.txt如下**       
-![ODMt6g.png](https://ooo.0x0.ooo/2024/10/07/ODMt6g.png)   
+**由于eigen3的默认安装途径通常为/usr/local/include/eigen3，这里选择修改CMakeLists.txt如下**  
+
+![ODMt6g.png](https://ooo.0x0.ooo/2024/10/07/ODMt6g.png) 
+
 **或者`sudo cp -r /usr/local/include/eigen3 /usr/include`把eigen3复制到本地调用目录/usr/include/eigen3才能正常运行**   
 ## 2.git上传文件到仓库   
 第一次遇到如下报错   
+
 ![ODO5KD.png](https://ooo.0x0.ooo/2024/10/07/ODO5KD.png)   
 
 解决方案很简单：生成一个自己的通用token即可，参考如下： 
@@ -27,7 +30,8 @@
 于是在参考如下：
 
 【C++opencv找圆心？看着一篇，一定有你要（边缘轮廓检测，拟合，凸包）找出相应的轮廓或者全部轮廓画外界圆轮廓并且标出轮廓中心 - CSDN App】   
-<https://blog.csdn.net/qq_65356682/article/details/129858643?type=blog&rId=129858643&refer=APP&source=2301_76440771>   
+<https://blog.csdn.net/qq_65356682/article/details/129858643?type=blog&rId=129858643&refer=APP&source=2301_76440771>  
+
 【基于opencv计算目标图像的面积 - CSDN App】   
 <https://blog.csdn.net/weixin_39539602/article/details/116001568?type=blog&rId=116001568&refer=APP&source=2301_76440771>  
 
