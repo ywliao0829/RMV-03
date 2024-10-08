@@ -13,7 +13,7 @@
 ## 2.git上传文件到仓库   
 第一次遇到如下报错   
 
-![ODO5KD.png](https://ooo.0x0.ooo/2024/10/07/ODO5KD.png)   
+![ODB9fr.png](https://ooo.0x0.ooo/2024/10/08/ODB9fr.png)  
 
 解决方案很简单：生成一个自己的通用token即可，参考如下： 
 
